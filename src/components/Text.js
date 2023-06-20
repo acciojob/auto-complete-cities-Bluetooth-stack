@@ -26,7 +26,7 @@ const Text = () => {
             <input onChange={(e) => { setChange(e.target.value) }}></input>
 
                 {
-                    change &&
+                    // change &&
                     update.map((city, ind) => (
                         <li key={ind}>{city}</li>
                     ))
