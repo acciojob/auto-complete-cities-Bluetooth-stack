@@ -23,12 +23,12 @@ const Text = () => {
 
     return (
         <div>
-            <input onChange={(e) => { setChange(e.target.value) }}></input>
+            <input value={change} onChange={(e) => { setChange(e.target.value) }}></input>
             <ul>
+                <li></li>
                 {
-                    // change &&
                     update.map((city, ind) => (
-                        <li key={ind}>{city}</li>
+                        <li key={ind} onClick={() => { setChange(city) }}>{city}</li>
                     ))
                 }
             </ul>
