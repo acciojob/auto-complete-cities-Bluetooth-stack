@@ -176,9 +176,7 @@ const Text = () => {
         <div>
             <input value={change} onChange={(e) => { setChange(e.target.value) }}></input>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                
                 {
                     update.map((city, ind) => (
                         <li key={ind} onClick={() => { setChange(city) }}>{city}</li>
