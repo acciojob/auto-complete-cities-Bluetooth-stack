@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const cities = [
     'Ajmer',
+    'Ajmer',
     'Sangli Miraj Kupwad',
     'Adilabad',
     'Anantapur',
@@ -47,7 +48,7 @@ const cities = [
     'Cachar',
     'Chirang',
     'Darrang',
-    'Dhemaji',
+    // 'Dhemaji',
     'Dima Hasao',
     'Dhubri',
     'Dibrugarh',
