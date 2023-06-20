@@ -47,7 +47,7 @@ const cities = [
     'Cachar',
     'Chirang',
     'Darrang',
-    // 'Dhemaji',
+    'Dhemaji',
     'Dima Hasao',
     'Dhubri',
     'Dibrugarh',
