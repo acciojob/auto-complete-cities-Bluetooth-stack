@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 const cities = [
     'Ajmer',
     'Ajmer',
-    'Ajmer',
     'Sangli Miraj Kupwad',
     'Adilabad',
     'Anantapur',
