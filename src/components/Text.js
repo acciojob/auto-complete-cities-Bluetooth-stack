@@ -173,8 +173,9 @@ const cities = [
 ]
 
 const Text = () => {
-    let [change, setChange] = useState('Ajmer');
+    let [change, setChange] = useState('');
     let [update, setUpdate] = useState([]);
+    let [val, setVal] = useState('');
 
     useEffect(() => {
         setUpdate(
@@ -186,12 +187,12 @@ const Text = () => {
     
     return (
         <div>
-            <input value={change} onChange={(e) => { setChange(e.target.value) }}></input>
+            <input value={val?val:change} onChange={(e) => { setChange(e.target.value) }}></input>
             <ul>
 
                 {
                     update.map((city, ind) => (
-                        <li key={ind} onClick={() => { setChange(city) }}>{city}</li>
+                        <li key={ind} onClick={() => { setVal(city) }}>{city}</li>
                     ))
                 }
             </ul>
