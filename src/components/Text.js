@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const cities = [
     'Adilabad',
-    'Ajmer',
     'Anantapur',
     'Chittoor',
     'Kakinada',
@@ -153,6 +152,7 @@ const cities = [
     'Raigad',
     'Ratnagiri',
     'Sindhudurg',
+    'Ajmer',
     'Sangli',
     'Solapur',
     'Satara',
@@ -170,10 +170,10 @@ const Text = () => {
         setUpdate(
             cities.filter((city) => (
                 city.toLowerCase().includes(change.toLowerCase())
-            ))
+                ))
         )
     }, [change])
-
+    
     return (
         <div>
             <input value={change} onChange={(e) => { setChange(e.target.value) }}></input>
