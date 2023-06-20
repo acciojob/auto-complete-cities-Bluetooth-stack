@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const cities = [
     "Mumbai",
     "Ajmer",
+    "Ajmer",
     "Navi Mumbai",
     "Sangli Miraj Kupwad",
     "Banglore",
