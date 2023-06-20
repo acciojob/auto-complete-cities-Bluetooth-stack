@@ -59,7 +59,7 @@ const cities = [
     'Kamrup Metropolitan',
     'Karbi Anglong',
     'Karimganj',
-    // 'Kokrajhar',
+    'Kokrajhar',
     'Lakhimpur',
     'Marigaon',
     'Nagaon',
