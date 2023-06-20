@@ -14,7 +14,7 @@ const cities = [
 ]
 
 const Text = () => {
-    let [change, setChange] = useState('Ajmer');
+    let [change, setChange] = useState('');
     let [update, setUpdate] = useState([]);
     let [val, setVal] = useState('');
 
