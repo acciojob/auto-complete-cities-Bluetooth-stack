@@ -24,14 +24,13 @@ const Text = () => {
     return (
         <div>
             <input onChange={(e) => { setChange(e.target.value) }}></input>
-            <ul>
+
                 {
                     change &&
-                    update.map(city => (
-                        <li>{city}</li>
+                    update.map((city, ind) => (
+                        <li key={ind}>{city}</li>
                     ))
                 }
-            </ul>
         </div>
     )
 }
