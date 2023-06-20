@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 const cities = [
-    'Sangli Miraj Kupwad',
     'Adilabad',
+    'Ajmer',
     'Anantapur',
     'Chittoor',
     'Kakinada',
@@ -41,7 +41,6 @@ const cities = [
     'West Kameng',
     'West Siang',
     'Baksa',
-    'Ajmer',
     'Barpeta',
     'Bongaigaon',
     'Cachar',
@@ -54,6 +53,7 @@ const cities = [
     'Goalpara',
     'Golaghat',
     'Hailakandi',
+    'Sangli Miraj Kupwad',
     'Jorhat',
     'Kamrup',
     'Kamrup Metropolitan',
